@@ -1,0 +1,11 @@
+spring:
+  application:
+    # 应用名字
+    name: rabbitmq-springboot-consumer
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: fan
+    password: 123456
+    # 虚拟主机
+    virtual-host: /fan

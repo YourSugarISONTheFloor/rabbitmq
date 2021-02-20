@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>cn.fantuan</groupId>
+    <artifactId>rabbitmq</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>rabbitmq</name>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>mc</module>
+        <module>mc-spring</module>
+        <module>mc-springboot</module>
+        <module>mq</module>
+        <module>mq-spring</module>
+        <module>mq-springboot</module>
+    </modules>
+    <!--定义版本约束-->
+    <properties>
+        <!--修改JDK编译版本-->
+        <java.version>1.8</java.version>
+    </properties>
+</project>
